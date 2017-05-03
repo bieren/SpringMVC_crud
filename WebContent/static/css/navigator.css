@@ -1,0 +1,72 @@
+.code_a{
+	position: relative;
+}
+.un{
+	display: none;
+}
+.code{
+	width: 170px;
+	height: 250px;
+	background: #ffffff;
+	position: absolute;
+	top:17px;
+	left:0;
+}
+.code ul li{
+	width: 180px;
+	height:125px;
+	float: left;
+}
+.wx_code{
+	width: 140px;
+	height:120px;
+	position: relative;
+	padding-bottom: 2px;
+	border-bottom: 1px solid #dddddd;
+}
+.wx_code .wx_code_img{
+	width: 100px;
+	height:120px;
+	position: absolute;
+	left:0;
+	top:15px;
+}
+
+.wx_code .wx_code_txt{
+	width: 23px;
+	height:120px;
+	position: absolute;
+	left:110px;
+	top:15px;
+	text-align: center;
+	line-height: 24px;
+	font-size: 14px;
+
+}
+.app_code{
+	width: 140px;
+	height:120px;
+	position: relative;
+	margin-top: 6px;
+}
+.app_code .app_code_img{
+	width: 100px;
+	height:120px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+
+.app_code .app_code_txt{
+	width: 23px;
+	height:120px;
+	position: absolute;
+	left:110px;
+	top:0;
+	text-align: center;
+	line-height: 24px;
+	font-size: 14px;
+
+}
+
+

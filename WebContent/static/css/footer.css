@@ -1,0 +1,54 @@
+@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td ,a{padding: 0;margin: 0;font-family:Microsoft Yahei;font-size:12px;}
+table {
+border-collapse: collapse;border-spacing: 0;}
+fieldset,img {border: 0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight: normal;font-style: normal;}
+
+ol,ul,li {list-style: none;}
+caption,th {text-align: left;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;font-size: 100%;}
+q:before,q:after {content:'';}
+abbr,acronym {border: 0;}
+a{text-decoration:none;}
+a:hover{color:#FF9966 !important;}
+.clears{clear:both;}
+
+.footer_position{width:100%;bottom:0;left: 0;}
+.footer{height:30px;line-height:30px;background:#1463B2;position: relative;}
+.footer_content li {color:#1463B2;min-width:30px;padding:0 30px 0 12px;float:left;background:#00A3DD;margin-right:1px;height:30px;position: relative;border-right:2px #115497 solid;}
+.footer_content li a{color:#fff;font-size:14px;min-width:30px;}
+.footer_content .foothome{background:none;color:#fff;}
+.footer_content .foothome a{color:#fff;}
+.footer_li_none{width:17px;height:17px;background:url(../images/small.png) no-repeat -58px -839px;position: absolute;right:4px;top:8px;cursor: pointer;}
+.footer_display{width:30px;height:30px;float:right;background:url(../images/small.png) no-repeat -2px -837px;margin-right:15px;position: relative;}
+.footer_list_info{position: absolute;left: -51px;top: -21px;width: 80px;height: 25px;line-height: 25px;padding-bottom: 15px;background: url(../images/small.png) no-repeat -85px -210px;z-index: 999;text-align: center;color:#fff;display:none;}
+
+.footer_list{height:100px;background:#3F80BF;position: absolute;top:-100px;left:0;width:100%;min-width:1000px;opacity: 0.9;filter: alpha(opacity=80);display:none;}
+.footer_list li{padding:9px 0 0 12px;width:180px;height:80px;float:left;}
+.footer_list li img{width:180px;height:80px;}
+.footer_list_display{width:73px;height:75px;background:url(../images/small.png) no-repeat -123px -829px;float:right;margin:15px;cursor: pointer;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

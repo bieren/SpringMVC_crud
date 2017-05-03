@@ -1,0 +1,121 @@
+﻿@charset "utf-8";
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
+form,fieldset,input,textarea,p,blockquote,th,td ,a{padding: 0;margin: 0;font-family:Microsoft Yahei;font-size:12px;}
+table {
+border-collapse: collapse;border-spacing: 0;}
+fieldset,img {border: 0;}
+address,caption,cite,code,dfn,em,strong,th,var{font-weight: normal;font-style: normal;}
+
+ol,ul,li {list-style: none;}
+caption,th {text-align: left;}
+h1,h2,h3,h4,h5,h6 {font-weight: normal;font-size: 100%;}
+q:before,q:after {content:'';}
+abbr,acronym {border: 0;}
+a{text-decoration:none;}
+a:hover{color:#FF9966 !important;}
+.clears{clear:both;}
+
+.left{width:805px;float:left;background:#EBEBEB;padding:0px 12px;margin-left:1px;}
+/****全市设备统计****/
+.left_statistics{height:63px;}
+.left_statistics p{line-height:35px;padding-top:14px;font-size:14px;font-weight:bold;}
+.left_statistics span{display:block;width:93px;height:35px;float:left;padding-left:2px;}
+.left_statistics a{display:block;min-width:100px;height:35px;float:left;text-align:center;background:#64A6DC;color:#fff;margin-right:1px;font-weight:bold;}
+.left .left_statistics a:hover{color:#000 !important;}
+/****全市设备统计****/
+
+/****充电设施分区统计****/
+.left_table_1{width:398px;float:left;border:1px solid #64A6DC;background:#fff;margin:0 5px 6px 0;height:245px;}
+.left_table_1_title{height:38px;line-height:38px;background:url(../images/left_table_title.jpg) repeat-x;border-bottom:1px solid #64A6DC;}
+.left_table_1_title h3{float:left;padding-left:12px;font-size:14px;font-weight:bold;color:#004D99;}
+.left_table_1_title p{float:right;background:url(../images/small.png) no-repeat -9px -514px;margin-right:15px;}
+.left_table_1_title p span{min-width:24px;display:block;float:left;text-align:center;padding-left:16px;}
+/****end充电设施分区统计****/
+
+/****上日各区域充电量分布图****/
+.left_table_2 {float:left;width:398px;border:1px solid #64A6DC;background:#fff;height:245px;}
+.left_table_2 .left_table_1_title  p {background:url(../images/small.png) no-repeat -14px -623px;}
+.left_table_2 .left_table_1_title  p span{padding-left:22px;}
+/****end上日各区域充电量分布图****/
+
+/****一周内异常警告处理情况统计****/
+.left_table_3 .left_table_1_title  p  {background:url(../images/small.png) no-repeat -9px -676px;}
+.left_table_3 .left_table_1_title  p span{padding-left:22px;}
+/****end一周内异常警告处理情况统计****/
+
+/****全区域充电实时负荷曲线****/
+.left_table_4{margin-right:0;height:245px;}
+.left_table_4 .left_table_1_title  p  {background:url(../images/small.png) no-repeat -12px -567px;}
+.left_table_4 .left_table_1_title  p span{padding-left:22px;}
+/****end全区域充电实时负荷曲线****/
+
+/****一周内充电次数与电量****/
+.left_table_5 .left_table_1_title  p  {background:url(../images/small.png) no-repeat -13px -622px;}
+.left_table_5 .left_table_1_title  p span{padding-left:27px;}
+/****end一周内充电次数与电量****/
+
+/****一周内充电次数与电量****/
+.left_table_6{margin-right:0;height:245px;}
+.left_table_6 .left_table_1_title  p  {background:url(../images/small.png) no-repeat  -6px -567px;width:120px;}
+.left_table_6 .left_table_1_title  p span{padding-left:24px;}
+/****end一周内充电次数与电量****/
+
+/****充电实时状态****/
+.left_table_7{height:302px;border:1px solid #64A6DC;background:#fff}
+.left_table_7_t{width:214px;text-align:center;padding:0 50px;float:left;}
+.left_table_7_t p{height:55px;line-height:55px;font-size:14px;color:#004D99;font-weight:bold;}
+.left_table_7 ul{width:75px;float:left;background:url(../images/small.png) no-repeat -63px -906px;margin-top:57px;padding-right:45px;}
+.left_table_7 ul li{padding-left:23px;height:23px;line-height:25px;}
+.left_table_7_table{width:350px;height:137px;float:left;text-align:center;padding-top:57px;color:#8C8C8C}
+.left_table_7_table_one{background:#006699;color:#F0F6F9;font-weight:bold;}
+.left_table_7_table_td{color:#000;}
+/****end充电实时状态****/
+
+
+/****滚动条****/
+hr{height:0; border:none; border-bottom:1px solid rgba(255,255,255,0.13);border-top:1px solid rgba(0,0,0,1); margin:9px 10px; clear:both;}
+.links{margin:10px;}
+.links a{display:inline-block; padding:3px 15px; margin:7px 10px; background:#444; text-decoration:none; -webkit-border-radius:15px; -moz-border-radius:15px; border-radius:15px;}
+.links a:hover{background:#eb3755; color:#fff;}
+.content{width:845px; height:780px;overflow:auto; -webkit-border-radius:3px; -moz-border-radius:3px; border-radius:3px; background:#EBEBEB;float:left; }
+.content p:nth-child(even){color:#999; font-family:Georgia,serif; font-size:17px; font-style:italic;}
+.content p:nth-child(3n+0){color:#c96;}
+.mCSB_buttonUp{background:url(../images/small.png) no-repeat 0 -770px !important;}
+.mCSB_scrollTools{width:18px !important;background:#64A6DC;}
+.mCSB_buttonDown{background:url(../images/small.png) no-repeat -29px -763px !important;}
+.mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {background:#166FC7 url(../images/mCSB_content.png) no-repeat 1px center !important;width:14px !important;}
+.mCSB_container{margin-right: 27px !important;}
+.mCSB_dragger{height:300px; line-height: 261px;}
+/****end滚动条****/
+
+/******左边的隐藏按扭********/
+#left_display{width:10px;height:55px;background:url(../images/small.png) no-repeat -64px -766px;position: absolute;top:40%;left: 845px;z-index:999999;cursor: pointer;}
+.left_display{background:url(../images/small.png) no-repeat -85px -766px !important;left: 3px !important;}
+/******end左边的隐藏按扭********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
